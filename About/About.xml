@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Extended traits</name>
+	<author>Caminha</author>
+	<targetVersion>0.17.0</targetVersion>
+<description>
+Adds 14 new traits!
+
+> Swiftfoot
+> Steady-footed
+> Bad reflexes
+> Good reflexes
+> Toxicity intolerant
+> Toxicity sensitive
+> Toxicity resistance
+> Glutton
+> Nibbler
+> Healthy
+> Frail constitution
+> Social butterfly
+> Silver-tongued
+> Perfectionist
+</description>
+</ModMetaData>
