@@ -31,3 +31,5 @@ Adds new traits!
 - Stutterer: Debuff to TradePriceImprovement, RecruitPrisonerChance and SocialImpact.
 
 - Perfectionist: Debuff to GlobalWorkSpeed; Buffs to MiningYield, AnimalGatherYield, PlantHarvestYield, ConstructSuccessChance, FixBrokenDownBuildingSuccessChance, MedicalTendQuality, MedicalSurgerySuccessChance, FoodPoisonChance and MechanoidOperationSuccessChance.
+
+- Nyctophobe: Debuff to mood when in dark.
