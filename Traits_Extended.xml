@@ -9,7 +9,6 @@
 			<li>
 				<label>swiftfoot</label>
 				<description>NAME evades things easier. HECAP can dodge more attacks than the average person.</description>
-				<commonality>0.4</commonality>
 				<statOffsets>
 					<MeleeDodgeChance>0.5</MeleeDodgeChance>
 				</statOffsets>
@@ -28,7 +27,6 @@
 			<li>
 				<label>sluggish</label>
 				<description>NAME takes more attacks than the average person</description>
-				<commonality>0.4</commonality>
 				<statOffsets>
 				<MeleeDodgeChance>-0.5</MeleeDodgeChance>
 				</statOffsets>
@@ -47,7 +45,6 @@
 			<li>
 				<label>bad reflexes</label>
 				<description>NAME is more likely to fail melee attacks</description>
-				<commonality>0.3</commonality>
 				<degree>1</degree>
 				<statOffsets>
 				<MeleeHitChance>-0.2</MeleeHitChance>
@@ -69,7 +66,6 @@
 			<li>
 				<label>good reflexes</label>
 				<description>NAME is less likely to fail melee attacks</description>
-				<commonality>0.3</commonality>
 				<degree>1</degree>
 				<statOffsets>
 				<MeleeHitChance>0.2</MeleeHitChance>
@@ -91,7 +87,6 @@
 			<li>
 				<label>toxicity intolerance</label>
 				<description>NAME is much more weaker than most to toxic fallouts. HECAP will suffer great consequences if exposed to such events.</description>
-				<commonality>0.15</commonality>
 				<degree>2</degree>
 				<statOffsets>
 					<ToxicSensitivity>1</ToxicSensitivity>
@@ -100,7 +95,6 @@
 			<li>
 				<label>toxicity sensitive</label>
 				<description>NAME is weaker than most to toxic fallouts, and should avoid being outside under such event.</description>
-				<commonality>0.15</commonality>
 				<degree>1</degree>
 				<statOffsets>
 					<ToxicSensitivity>0.5</ToxicSensitivity>
@@ -120,7 +114,6 @@
 			<li>
 				<label>toxicity resistance</label>
 				<description>NAME can handle toxic fallouts better than most and will be less affected by such event.</description>
-				<commonality>0.2</commonality>
 				<statOffsets>
 					<ToxicSensitivity>-0.5</ToxicSensitivity>
 				</statOffsets>
@@ -163,7 +156,6 @@
 			<li>
 				<label>healthy</label>
 				<description>NAME's body is stronger against pathogens and other diseases.</description>
-				<commonality>0.2</commonality>
 				<statOffsets>
 					<ImmunityGainSpeed>0.25</ImmunityGainSpeed>
 				</statOffsets>
