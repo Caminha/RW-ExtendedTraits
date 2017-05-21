@@ -244,12 +244,11 @@
 	
 	<TraitDef>
 		<defName>Perfectionist</defName>
-		<commonality>0.3</commonality>
+		<commonality>0.2</commonality>
 		<degreeDatas>
 			<li>
 				<label>perfectionist</label>
 				<description>NAME is less likely to fail when doing something, but will work slowlier.</description>
-				<commonality>0.3</commonality>
 				<statOffsets>
 					<WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
 					<MiningYield>0.2</MiningYield>
