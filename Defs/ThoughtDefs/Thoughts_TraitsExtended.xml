@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>MoodOffsetNyctophobia</defName>
+    <workerClass>ThoughtWorker_Dark</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>Nyctophobe</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>nyctophobia</label>
+        <description>I... I think I saw something moving...</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+
+
+</Defs>

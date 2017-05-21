@@ -267,6 +267,17 @@
 			<li>Industriousness</li>
 		</conflictingTraits>
 	</TraitDef>
+	
+	<TraitDef>
+		<defName>Nyctophobe</defName>
+		<commonality>0.08</commonality>
+		<degreeDatas>
+			<li>
+				<label>nyctophobe</label>
+				<description>NAME really fears the dark.</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
 
 
 </TraitDefs>

@@ -5,21 +5,23 @@
 	<author>Caminha</author>
 	<targetVersion>0.17.0</targetVersion>
 <description>
-Adds 14 new traits!
+Adds new traits!
 
-> Swiftfoot
-> Steady-footed
-> Bad reflexes
-> Good reflexes
-> Toxicity intolerant
-> Toxicity sensitive
-> Toxicity resistance
-> Glutton
-> Nibbler
-> Healthy
-> Frail constitution
-> Social butterfly
-> Silver-tongued
-> Perfectionist
+- Swiftfoot
+- Sluggish
+- Good reflexes
+- Bad reflexes
+- Toxicity Resistance
+- Toxicity Intolerant
+- Toxicity Sensitive
+- Glutton
+- Nibbler
+- Healthy
+- Frail constitution
+- Social butterfly
+- Silver-tongued
+- Stutterer
+- Perfectionist
+- Nyctophobe
 </description>
 </ModMetaData>
