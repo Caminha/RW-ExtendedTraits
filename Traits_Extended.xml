@@ -85,7 +85,7 @@
 		<commonality>0.15</commonality>
 		<degreeDatas>
 			<li>
-				<label>toxicity intolerance</label>
+				<label>toxicity intolerant</label>
 				<description>NAME is much more weaker than most to toxic fallouts. HECAP will suffer great consequences if exposed to such events.</description>
 				<degree>2</degree>
 				<statOffsets>
@@ -112,7 +112,7 @@
 		<commonality>0.2</commonality>
 		<degreeDatas>
 			<li>
-				<label>toxicity resistance</label>
+				<label>toxicity resistant</label>
 				<description>NAME can handle toxic fallouts better than most and will be less affected by such event.</description>
 				<statOffsets>
 					<ToxicSensitivity>-0.5</ToxicSensitivity>
@@ -194,9 +194,9 @@
 				<description>NAME is very social and easygoing.</description>
 				<degree>1</degree>
 				<statOffsets>
-					<TradePriceImprovement>0.10</TradePriceImprovement>
-					<RecruitPrisonerChance>0.15</RecruitPrisonerChance>
-					<SocialImpact>0.25</SocialImpact>
+					<TradePriceImprovement>0.5</TradePriceImprovement>
+					<RecruitPrisonerChance>0.10</RecruitPrisonerChance>
+					<SocialImpact>0.15</SocialImpact>
 				</statOffsets>
 			</li>
 			<li>
@@ -204,9 +204,9 @@
 				<description>NAME has a clever way with words and is a very convincing person.</description>
 				<degree>2</degree>
 				<statOffsets>
-					<TradePriceImprovement>0.20</TradePriceImprovement>
-					<RecruitPrisonerChance>0.30</RecruitPrisonerChance>
-					<SocialImpact>0.5</SocialImpact>
+					<TradePriceImprovement>0.10</TradePriceImprovement>
+					<RecruitPrisonerChance>0.20</RecruitPrisonerChance>
+					<SocialImpact>0.30</SocialImpact>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -214,6 +214,28 @@
 			<li>AnnoyingVoice</li>
 			<li>CreepyBreathing</li>
 			<li>Abrasive</li>
+		</conflictingTraits>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>SocialDebuff</defName>
+		<commonality>0.15</commonality>
+		<degreeDatas>
+			<li>
+				<label>stutterer</label>
+				<description>NAME has trouble with speaking.</description>
+				<statOffsets>
+					<TradePriceImprovement>-0.5</TradePriceImprovement>
+					<RecruitPrisonerChance>-0.10</RecruitPrisonerChance>
+					<SocialImpact>-0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>SocialBuff</li>
 		</conflictingTraits>
 		<requiredWorkTags>
 			<li>Social</li>
