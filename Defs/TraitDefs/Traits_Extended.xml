@@ -53,6 +53,7 @@
 		</degreeDatas>
 		<conflictingTraits>
 			<li>DodgingChance</li>
+			<li>AttackingChanceDebuff</li>
 		</conflictingTraits>
 		<requiredWorkTags>
 			<li>Violent</li>
@@ -74,6 +75,7 @@
 		</degreeDatas>
 		<conflictingTraits>
 			<li>DodgingChanceDebuff</li>
+			<li>AttackingChanceBuff</li>
 		</conflictingTraits>
 		<requiredWorkTags>
 			<li>Violent</li>
@@ -275,6 +277,12 @@
 			<li>
 				<label>nyctophobe</label>
 				<description>NAME really fears the dark.</description>
+				<degree>1</degree>
+			</li>
+			<li>
+				<label>nyctophile</label>
+				<description>NAME really likes the dark.</description>
+				<degree>-1</degree>
 			</li>
 		</degreeDatas>
 	</TraitDef>
